@@ -126,10 +126,7 @@ Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, 
   - title: Tiêu đề của liên kết.
   - target: Xác định nơi mở tài liệu như _blank mở trong của sổ mới, _self (giá trị mặc định) mở trong cửa sổ hiện tại, _self mở trong nội dung trang hiện tại, _parent mở trên khung trình duyệt mẹ của nó.
   - Ví dụ:
-    <p>Mở trong cửa sổ mới <a href="https://www.facebook.com/ngocnam.12.01" title="Ngọc Nam" target="_blank">link facebook</a></p>
-    <p>Mở trong cửa sổ hiện tại <a href="https://www.facebook.com/ngocnam.12.01" title="Ngọc Nam" target="_self">link facebook</a></p>
-    <p>Mở trong nội dung trang hiện tại <a href="https://www.facebook.com/ngocnam.12.01" title="Ngọc Nam" target="_self">link facebook</a></p>
-    <p>Mở trên khung trình duyệt mẹ của nó <a href="https://www.facebook.com/ngocnam.12.01" title="Ngọc Nam" target="_parent">link facebook</a></p>
+    <p>Mở trong cửa sổ mới <a href="https://www.facebook.com/ngocnam.12.01" title="Ngọc Nam">link facebook</a></p>
 
 ### Liên kết neo
 - Dẫn đến vị trí được đánh dấu trên trang web.
