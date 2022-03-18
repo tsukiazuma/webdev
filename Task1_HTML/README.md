@@ -96,7 +96,7 @@ Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, 
     <p>
         <quote>
             <p>Shinra Tensei!</p>
-            <title>Pain - Nagato</title>
+            <cite>Pain - Nagato</cite>
         </quote>
     </p>
 
