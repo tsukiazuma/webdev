@@ -109,8 +109,7 @@ Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, 
     honto no heiwa wakaran
     koko yori
     Sekai ni itami o
-    Shinra Tensei!
-    </pre>
+    Shinra Tensei!</pre>
 
 ### Các thuộc tính style để định dạng chữ viết:
 - color: màu chữ.
