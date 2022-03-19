@@ -14,6 +14,7 @@ HTML:
 - Là chữ viết tắt của cụm từ HyperText Markup Language
 - Là ngôn ngữ đánh dấu siêu văn bản
 - Người sáng lập: Tim Berners-Lee
+
 Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, định dạng các yếu tố siêu văn bản bao gồm ảnh, video, infographic và nhiều một vài thành phần khác.
 
 ## Cấu trúc HTML
