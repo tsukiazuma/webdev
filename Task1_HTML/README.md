@@ -57,7 +57,7 @@ Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, 
   - Thuộc tính name: luôn đi với thuộc tính content
   - Ví dụ:
     ```php
-    <meta name="author" content="Ngoc Nam" />
+    <<title>Website sieu cap vip pro</title>/>
     ```
   - Thuộc tính name hỗ trợ một số giá trị như:
     - author: Khai báo tên tác giả của tài liệu.
