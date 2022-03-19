@@ -1,3 +1,4 @@
+Người thực hiện: Trần Ngọc Nam
 # Mục lục
 - HTML và vai trò của HTML
 - Cấu trúc HTML
@@ -66,8 +67,10 @@ Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, 
 ### Tiêu đề và đoạn văn bản:
 - Thẻ p dùng để khai báo các đoạn văn bản và mỗi đoạn sẽ cách nhau một khoảng nhất định.
 - Ví dụ:
+  ```php
     <p>Đây là đoạn văn bản thứ 1</p>
     <p>Đây là đoạn văn bản thứ 2</p>
+  ```
 
 - Thẻ h dùng khai báo các tiêu đề và có 6 cấp độ.
 
@@ -83,6 +86,7 @@ Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, 
 - quote: Trích dẫn
 - pre: Hiển thị ra đúng định dạng khi soạn mà không cần chỉnh sửa
 - Ví dụ:
+  ```php
     <p>Tên:<strong>Trần Ngọc Nam</strong>, trường <i>Hutech</i>, lớp <u>18DTHD3</u>. Hiện đang là thực tập sinh của <strike>HPT Cyber Security</strike>.</p>
 
     <hr>
@@ -109,7 +113,9 @@ Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, 
     honto no heiwa wakaran
     koko yori
     Sekai ni itami o
-    Shinra Tensei!</pre>
+    Shinra Tensei!
+    </pre>
+    ```
 
 ### Các thuộc tính style để định dạng chữ viết:
 - color: màu chữ.
@@ -126,10 +132,138 @@ Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, 
   - title: Tiêu đề của liên kết.
   - target: Xác định nơi mở tài liệu như _blank mở trong của sổ mới, _self (giá trị mặc định) mở trong cửa sổ hiện tại, _self mở trong nội dung trang hiện tại, _parent mở trên khung trình duyệt mẹ của nó.
   - Ví dụ:
+    ```php
     <p>Link facebook <a href="https://www.facebook.com/ngocnam.12.01" title="Ngọc Nam">Trần Ngọc Nam</a></p>
+    ```
 
 ### Liên kết neo
 - Dẫn đến vị trí được đánh dấu trên trang web.
 - Khu vực neo sẽ đánh dấu bằng id.
-- thuộc tính href của thẻ a sẽ chữ # + id dùng để đánh dấu trước đó.
+- Thuộc tính href của thẻ a sẽ chữ # + id dùng để đánh dấu trước đó.
 - Ví dụ: đoạn này copy văn bản dài quá nên em bỏ qua nhá -_-.
+
+## Chèn tập tin kỹ thuật số vào web:
+### Chèn ảnh:
+- Thẻ img dùng để chèn ảnh và không có thẻ đóng.
+- Các thuộc tính của thẻ đóng:
+	- src : Đường dẫn đến ảnh.
+	- title: Tiêu đề ảnh.
+	- alt: tên hiển thị lúc kết nổi không ổn định.
+- Ngoài ra còn có thuộc tính width và height để chỉnh kích thước ảnh.
+- Ví dụ:
+  ```php
+  <img src="https://img.hoidap247.com/picture/question/20200324/large_1585043293307.jpg" title="loli" alt="Ảnh về Loli - FBI Open The Door" />
+  ```
+
+### Chèn video:
+- Thẻ video dùng để chèn video vào web (HTML5).
+- Các thẻ con:
+	- source: Đường dẫn đến video.
+	- type: Loại media.
+- Ngoài ra còn có các thuộc tính khác như width, height, control, autoplay, muted.
+- Ví dụ:
+  ```php
+  <video width="200" height="auto" control>
+    <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+    Trình duyệt của bạn không hỗ trợ HTML5.
+  </video>
+  ```
+### Chèn âm thanh – nhạc:
+- Thẻ audio dùng để chèn âm thanh vào web
+- Các thẻ con và thuộc tính thì hoàn toàn tương tự thẻ video
+- Ví dụ:
+  ```php
+  <audio width="200" height="auto" control>
+    <source src="https://www.w3schools.com/tags/horse.mp3" type="audio/mp3">
+    Trình duyệt của bạn không hỗ trợ HTML5.
+  </audio>
+  ```
+
+### Chèn tài liệu HTML vào web:
+- Thẻ iframe cho phép bạn nhúng một trang web vào web của bạn.
+- Các thuộc tính thường dùng src, width, height, name.
+- Ví dụ:
+  ```php
+  <iframe src="http://daotao.hutech.edu.vn/" width="500px" height="800px" scrolling="auto"></iframe>
+
+  Hoặc
+
+  <p><a target="window" href="http://daotao.hutech.edu.vn/">Truy cập</a></p>
+  <iframe src="http://thachpham.com" name="window" width="500px" height="800px"></iframe>
+  ```
+- Lưu ý giá trị thuộc tính target của thẻ a phải trùng với giá trị thuộc tính name của thẻ iframe.
+
+### Chèn đối tượng:
+- Thẻ object cho phép chèn nhiều loại dữ liệu như ảnh, video, âm thanh hoặc nhúng trang web vào web của bạn nhưng không tốt bằng các loại thẻ chuyên dụng riêng biệt.
+- Các thuộc tính thường dùng data(source), width, height, name, type.
+- Ví dụ:
+  ```php
+  <object data="https://www.w3schools.com/tags/pic_trulli.jpg" width="300" height="200"></object>
+  ```
+## Tạo danh sách (List):
+### Kiểu sắp xếp:
+- Danh sách được sắp xếp theo thứ tự bằng số hoặc chữ cái.
+- Ví dụ:
+  ```php
+  <p>Các thể loại Loli:</p>
+  <ol type="i">
+    <li>Tsudere</li>
+    <li>Yandere</li>
+    <li>Dandere</li>
+    <li>Deredere</li>
+    <li>Hinedere</li>
+  </ol>
+  ```
+### Kiểu không sắp xếp:
+- Danh sách không được sắp xếp theo thứ tự bằng số hoặc chữ cái mà chỉ được đánh dấu bằng một ký tự đặc trưng.
+- Ví dụ:
+  ```php
+  <p>Các thể loại Loli:</p>
+  <ul style="list-style-type: square">
+    <li>Tsudere</li>
+    <li>Yandere</li>
+    <li>Dandere</li>
+    <li>Deredere</li>
+    <li>Hinedere</li>
+  </ul>
+  ```
+### Kiểu mô tả:
+-  Các mục con của danh sách sẽ không được đánh dấu thứ tự, nhưng sẽ có kèm theo một đoạn miêu tả.
+-  Ví dụ:
+  ```php
+  <p>Sơ yếu lí lịch</p>
+  <dl>
+    <dt>Họ tên:</dt>
+    <dd> Trần Ngọc Nam</dd>
+    
+    <dt>Năm sinh:</dt>
+    <dd> 2000</dd>
+    
+    <dt>Trường:</dt>
+    <dd> HUTECH</dd>
+    
+    <dt>Lớp: </dt>
+    <dd> 18DTHD3</dd>
+  </dl>
+  ```
+## Tạo form nhập liệu:
+- Để tạo form chúng ta sẽ tạo thẻ form, thẻ này sẽ chứa cac thuộc tính và nội dung của form sẽ được nhập liệu thông qua các thẻ input.
+- Ví dụ:
+  ```php
+  <form action="#" method="post" name="dangnhap">
+    Tên đăng nhập:
+    <input type="text" name="username" placeholder="Nhập username" /> <br />
+    Mật khẩu:
+    <input type="password" name="password" placeholder="Nhập mật khẩu" /> <br />
+    <input type="submit" name="submit" value="Đăng nhập" />
+  </form>
+  ```
+### Các thuộc tính trong thẻ form:
+- action: Đường dẫn đến một trang xử lý dữ liệu sau khi người dùng ấn nút gửi dữ liệu.
+- method: Phương thức gửi dữ liệu.
+- name: Tên của form.
+
+### Các thuộc tính trong thẻ input:
+- type: Loại dữ liệu muốn nhập(23 loại).
+- name: Tên của thẻ.
+- placeholder: Hiện chữ mờ để gợi ý.
