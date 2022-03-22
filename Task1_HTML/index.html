@@ -1,72 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Trang web HTML và CSS cơ bản" />
-    <meta name="keyword" content="HTML, HTML5, CSS" />
-    <title>Ngọc Nam Blog</title>
-    <link rel="stylesheet" href="normalize.css" /> <!-- Reset CSS-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div id="container">
-        <div id="menu">
+    <div class="container">
+        <div class="menu">
             <ul>
-                <li><a href="#">Trang chủ</a></li>
-                <li>
-                    <a href="#">Dịch vụ</a>
-                    <ul class="sub-menu">
-                        <li><a href="#">WordPress</a></li>
-                        <li><a href="#">SEO</a></li>
-                        <li><a href="#">Hosting</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Hỏi đáp</a></li>
-                <li><a href="#">Diễn đàn</a></li>
-                <li><a href="#">Liên hệ</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Jakets</a></li>
+                <li><a href="#">Blazers</a></li>
+                <a href="#"><img src="../img/logo_2.png" alt="Logo" /></a>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Page</a></li>
+                <li><a href="#">Dresses</a></li>
             </ul>
         </div>
-        <!-- menu-->
-        <div id="content">
-            <div id="header">
-                <div id="logo">
-                    <img src="../img/logo.jpg" alt="Tsuki Azuma" />
-                </div>
-                <div id="slogan">
-                    <p>Shinra Tensei!</p>
-                </div>
+
+        <div class="slide">
+            <img src="../img/slider.jpg" width="1200px" alt="" />
+            <div class="left">
+                <h2><i>Free</i> Shipping</h2>
+                <p>Free - Anywhere - Anytime - Anybody</p>
+                <button class="btn">Browse</button>
             </div>
-            <!-- header-->
-            <div class="call-to-action">
-                <h3>Bạn sẽ được học những gì?</h3>
-                <p>Series này sẽ cung cấp các kiến thức về CSS cơ bản để bạn tự thiết kế giao diện website với HTML và CSS.</p>
-            </div>
-            <!-- call-to-action-->
-            <div class="row" id="intro">
-                <div id="box1" class="col">
-                    <h2>CSS</h2>
-                    <img src="../img/css-icon.png" alt="ảnh CSS" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac ante nulla. Suspendisse dictum est non eleifend tempor. Duis iaculis mauris eget bibendum dignissim. Duis lobortis dolor eu libero tristique condimentum. Sed venenatis risus et urna sagittis, eget ornare ex accumsan. Phasellus hendrerit, massa nec egestas consectetur, sem massa sodales sapien, non vestibulum lacus orci vitae felis. Morbi eget scelerisque ipsum.</p>
-                </div>
-                <div id="box2" class="col">
-                    <h2>URL</h2>
-                    <img src="../img/url-icon.png" alt="ảnh URL" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac ante nulla. Suspendisse dictum est non eleifend tempor. Duis iaculis mauris eget bibendum dignissim. Duis lobortis dolor eu libero tristique condimentum. Sed venenatis risus et urna sagittis, eget ornare ex accumsan. Phasellus hendrerit, massa nec egestas consectetur, sem massa sodales sapien, non vestibulum lacus orci vitae felis. Morbi eget scelerisque ipsum.</p>        
-                </div>
-                <div id="box3" class="col">
-                    <h2>HTML</h2>
-                    <img src="../img/html-icon.png" alt="ảnh HTML" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac ante nulla. Suspendisse dictum est non eleifend tempor. Duis iaculis mauris eget bibendum dignissim. Duis lobortis dolor eu libero tristique condimentum. Sed venenatis risus et urna sagittis, eget ornare ex accumsan. Phasellus hendrerit, massa nec egestas consectetur, sem massa sodales sapien, non vestibulum lacus orci vitae felis. Morbi eget scelerisque ipsum.</p> 
-                </div>
-                <!-- row-->
-            </div>
-            <div id="footer">
-                <p>Copyright &copy; 2022 www.facebook.com/ngocnam.12.01</p>
+            <div class="right">
+                <button class="hidden"><</button>
+                <button class="hidden">></button>
             </div>
         </div>
-        <!-- content-->
+
+        <div class="banner">
+            <a id="bannerleft" href="#">
+                <p class="text1">Spring <strong>Summer</strong></p>
+                <p class="view1">view all</p>
+            </a>
+            <a id="bannerright" href="#">
+                <p class="text2">Free<br /><strong>Shipping</strong></p>
+                <p class="view2">on all orders<br/>over $50!</p>
+            </a>
+        </div>
+
+        <div class="content">
+            <p id="title">Feartured <strong>Products</strong></p>
+            <div class="lay1">
+                <a class="sp" href="#"><img src="../img/item_1.jpg" alt="" /></a>
+                <a class="sp" href="#"><img src="../img/item_2.jpg" alt="" /></a>
+                <a class="sp" href="#"><img src="../img/item_3.jpg" alt="" /></a>
+                <a class="sp" href="#"><img src="../img/item_4.jpg" alt="" /></a>
+            </div>
+            <div class="lay2">
+                <div class="ten">
+                    <p>Shot Warter Repellent</p>
+                    <p>Jacket</p>
+                </div>
+                <div class="ten">
+                    <p>Shot Warter Repellent</p>
+                    <p>Jacket</p>
+                </div>
+                <div class="ten">
+                    <p>Shot Warter Repellent</p>
+                    <p>Jacket</p>
+                </div>
+                <div class="ten">
+                    <p>Shot Warter Repellent</p>
+                    <p>Jacket</p>
+                </div>
+            </div>
+            <div class="lay3">
+                <div class="gia">$45.<span>00</span></div>
+                <div class="gia">$74.<span>00</span></div>
+                <div class="gia">$48.<span>00</span></div>
+                <div class="gia">$52.<span>00</span></div>
+            </div>
+            <div class="lay4">
+                <div class="mua">
+                    <button class="btn">Buynow</button>
+                </div>
+                <div class="mua">
+                    <button class="btn">Buynow</button>
+                </div>
+                <div class="mua">
+                    <button class="btn">Buynow</button>
+                </div>
+                <div class="mua">
+                    <button class="btn">Buynow</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner">
+            <a id="banner1" href="#">
+                <p class="textleft">Best <strong>Shoes</strong></p>
+                <p class="viewleft">view all</p>
+            </a>
+            <a id="banner2" href="#">
+                <p class="textright">Top<br /><strong>Bags</strong></p>
+                <p class="viewright">view all</p>
+            </a>
+        </div>
+        
+        <div class="footer">
+            <div class="about">
+                <h2>About us</h2>
+                <a id="trai" href="#"><img src="../img/logo_2.png" width="70px" alt=""/></a>
+                <p id="phai">Welcome to my SM store. Here we have the best products and the most professional service.</p>
+            </div>
+            <div class="contact">
+                <h2>Contact</h2>
+                <p><span>Email: </span>ngocnamattt1201@gmail.com</p>
+                <p><span>Tel: </span> (84) 333 066 579</p>
+            </div>
+            <div class="link">
+                <p>Copy &copy; by Tran Ngoc Nam</p>
+            </div>
+        </div>
     </div>
-    <!-- container-->
 </body>
 </html>
