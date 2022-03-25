@@ -1,15 +1,16 @@
 Người thực hiện: Trần Ngọc Nam
-# Mục lục
-- HTML và vai trò của HTML
-- Cấu trúc HTML
-- Các thẻ khai báo thông tin web cơ bản
-- Các thẻ định dạng chữ viết và văn bản
-- Thẻ tạo liên kết và liên kết neo
-- Chèn tập tin kỹ thuật số vào web
-- Tạo danh sách (List)
-- Tạo form nhập liệu
 
-## HTML và vai trò của HTML
+# Mục lục:
+- [HTML và vai trò của HTML](#1)
+- [Cấu trúc HTML](#2)
+- [Các thẻ khai báo thông tin web cơ bản](#3)
+- [Các thẻ định dạng chữ viết và văn bản](#4)
+- [Thẻ tạo liên kết và liên kết neo](#5)
+- [Chèn tập tin kỹ thuật số vào web](#6)
+- [Tạo danh sách (List)](#7)
+- [Tạo form nhập liệu](#8)
+
+## HTML và vai trò của HTML<a name="1"></a>
 HTML:
 - Là chữ viết tắt của cụm từ HyperText Markup Language
 - Là ngôn ngữ đánh dấu siêu văn bản
@@ -17,7 +18,7 @@ HTML:
 
 Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, định dạng các yếu tố siêu văn bản bao gồm ảnh, video, infographic và nhiều một vài thành phần khác.
 
-## Cấu trúc HTML
+## Cấu trúc HTML<a name="2"></a>
 ### HTML bao gồm 4 yếu tố chính:
 - Thẻ khai báo loại tập tin/tài liệu.
 - Thẻ đóng và mở tài liệu HTML.
@@ -42,6 +43,7 @@ Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, 
 #### Thẻ đóng và mở phần nội dung website:
 - Thẻ body là phần thân của website, nó chứa toàn bộ nội dung của website.
 
+<a name="2"></a>
 ## Các thẻ khai báo thông tin web cơ bản
 ### Thẻ title: 
 - Có tác dụng khai báo tên cho trang web
@@ -64,7 +66,7 @@ Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, 
     - description: Khai báo mô tả của tài liệu.
     - keyword: Khai báo từ khóa của tài liệu, các từ khóa này sẽ giúp tìm kiếm văn bản hoặc máy tìm kiếm website dò tìm (Hiện tại rất ít dùng thuộc tính này).
 
-## Các thẻ định dạng chữ viết và văn bản
+## Các thẻ định dạng chữ viết và văn bản<a name="3"></a>
 ### Tiêu đề và đoạn văn bản:
 - Thẻ p dùng để khai báo các đoạn văn bản và mỗi đoạn sẽ cách nhau một khoảng nhất định.
 - Ví dụ:
@@ -125,7 +127,7 @@ Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, 
 - font-family: font chữ.
 - text-align: căn lề chữ.
 
-## Thẻ tạo liên kết và liên kết neo
+## Thẻ tạo liên kết và liên kết neo<a name="4"></a>
 ### Thẻ liên kết - a:
 - Tạo ra các đừng liên kết trong HTML.
 - Các thuộc tính thường dùng:
@@ -143,7 +145,7 @@ Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, 
 - Thuộc tính href của thẻ a sẽ chữ # + id dùng để đánh dấu trước đó.
 - Ví dụ: đoạn này copy văn bản dài quá nên em bỏ qua nhá -_-.
 
-## Chèn tập tin kỹ thuật số vào web:
+## Chèn tập tin kỹ thuật số vào web<a name="5"></a>
 ### Chèn ảnh:
 - Thẻ img dùng để chèn ảnh và không có thẻ đóng.
 - Các thuộc tính của thẻ đóng:
@@ -201,7 +203,8 @@ Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, 
   ```php
   <object data="https://www.w3schools.com/tags/pic_trulli.jpg" width="300" height="200"></object>
   ```
-## Tạo danh sách (List):
+
+## Tạo danh sách (List)<a name="6"></a>
 ### Kiểu sắp xếp:
 - Danh sách được sắp xếp theo thứ tự bằng số hoặc chữ cái.
 - Ví dụ:
@@ -247,7 +250,8 @@ Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, 
     <dd> 18DTHD3</dd>
   </dl>
   ```
-## Tạo form nhập liệu:
+
+## Tạo form nhập liệu<a name="7"></a>
 - Để tạo form chúng ta sẽ tạo thẻ form, thẻ này sẽ chứa cac thuộc tính và nội dung của form sẽ được nhập liệu thông qua các thẻ input.
 - Ví dụ:
   ```php
