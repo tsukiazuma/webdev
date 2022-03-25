@@ -43,7 +43,7 @@ Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, 
 #### Thẻ đóng và mở phần nội dung website:
 - Thẻ body là phần thân của website, nó chứa toàn bộ nội dung của website.
 
-## Các thẻ khai báo thông tin web cơ bản<a name="2"></a>
+## Các thẻ khai báo thông tin web cơ bản<a name="3"></a>
 ### Thẻ title: 
 - Có tác dụng khai báo tên cho trang web
 - Ví dụ:
