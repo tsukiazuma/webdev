@@ -1,9 +1,9 @@
 Người thực hiện: Trần Ngọc Nam
 # Mục lục
-- HTML5 là gì?(#1)
-- HTML5 có gì mới?(#2)
-- Ưu điểm(#3)
-- Nhược điểm(#4)
+- [HTML5 là gì?](#1)
+- [HTML5 có gì mới?](#2)
+- [Ưu điểm](#3)
+- [Nhược điểm](#4)
 
 ## HTML5 là gì?<a name="1"></a>
 - Là phiên bản thứ 5 của ngôn ngữ HTML, được giới thiệu bởi World Wide Web Consortium (W3C).
