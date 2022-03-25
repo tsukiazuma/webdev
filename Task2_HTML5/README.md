@@ -1,15 +1,15 @@
 Người thực hiện: Trần Ngọc Nam
 # Mục lục
-- HTML5 là gì?
-- HTML5 có gì mới?
-- Ưu điểm
-- Nhược điểm
+- HTML5 là gì?(#1)
+- HTML5 có gì mới?(#2)
+- Ưu điểm(#3)
+- Nhược điểm(#4)
 
-## HTML5 là gì?
+## HTML5 là gì?<a name="1"></a>
 - Là phiên bản thứ 5 của ngôn ngữ HTML, được giới thiệu bởi World Wide Web Consortium (W3C).
 - Giữ lại những đặc điểm cơ bản của HTML4 và bổ sung thêm các đặc tả nổi trội của XHTML, DOM cấp 2, đặc biệt là JavaScript.
 
-## HTML5 có gì mới?
+## HTML5 có gì mới?<a name="2"></a>
 - HTML5 được xây dựng dựa trên các nguyên tắc:
   - Ít phụ thuộc vào các plugin cho các chức năng.
   - Script nên được thay thế bằng markup bất cứ khi nào có thể.
@@ -109,13 +109,13 @@ Người thực hiện: Trần Ngọc Nam
 - HTML5 sử dụng web SQL databases, application cache để lưu dữ liệu tạm trong khi HTML chỉ có cache của trình duyệt.
 - HTML5 hỗ trợ hoàn toàn cho JavaScript để chạy nền nhờ vào JS web worker API.
   
-## Ưu điểm:
+## Ưu điểm:<a name="3"></a>
 - Đa nền tảng và responsive.
 - Hỗ trợ âm thanh và video.
 - Có nhiều layout elements hơn cho nội dung.
 - Xử lý lỗi tốt hơn.
 
-## Nhược điểm:
+## Nhược điểm:<a name="4"></a>
 - Yêu cầu các trình duyệt hiện đại để sử dụng.
 - Vấn đề bản quyền.
 - HTML5 vẫn đang hoàn thiện từng ngày.
