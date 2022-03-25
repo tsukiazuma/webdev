@@ -43,8 +43,7 @@ Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, 
 #### Thẻ đóng và mở phần nội dung website:
 - Thẻ body là phần thân của website, nó chứa toàn bộ nội dung của website.
 
-<a name="2"></a>
-## Các thẻ khai báo thông tin web cơ bản
+## Các thẻ khai báo thông tin web cơ bản<a name="2"></a>
 ### Thẻ title: 
 - Có tác dụng khai báo tên cho trang web
 - Ví dụ:
@@ -127,7 +126,7 @@ Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, 
 - font-family: font chữ.
 - text-align: căn lề chữ.
 
-## Thẻ tạo liên kết và liên kết neo<a name="4"></a>
+## Thẻ tạo liên kết và liên kết neo<a name="5"></a>
 ### Thẻ liên kết - a:
 - Tạo ra các đừng liên kết trong HTML.
 - Các thuộc tính thường dùng:
@@ -145,7 +144,7 @@ Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, 
 - Thuộc tính href của thẻ a sẽ chữ # + id dùng để đánh dấu trước đó.
 - Ví dụ: đoạn này copy văn bản dài quá nên em bỏ qua nhá -_-.
 
-## Chèn tập tin kỹ thuật số vào web<a name="5"></a>
+## Chèn tập tin kỹ thuật số vào web<a name="6"></a>
 ### Chèn ảnh:
 - Thẻ img dùng để chèn ảnh và không có thẻ đóng.
 - Các thuộc tính của thẻ đóng:
@@ -204,7 +203,7 @@ Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, 
   <object data="https://www.w3schools.com/tags/pic_trulli.jpg" width="300" height="200"></object>
   ```
 
-## Tạo danh sách (List)<a name="6"></a>
+## Tạo danh sách (List)<a name="7"></a>
 ### Kiểu sắp xếp:
 - Danh sách được sắp xếp theo thứ tự bằng số hoặc chữ cái.
 - Ví dụ:
@@ -251,7 +250,7 @@ Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, 
   </dl>
   ```
 
-## Tạo form nhập liệu<a name="7"></a>
+## Tạo form nhập liệu<a name="8"></a>
 - Để tạo form chúng ta sẽ tạo thẻ form, thẻ này sẽ chứa cac thuộc tính và nội dung của form sẽ được nhập liệu thông qua các thẻ input.
 - Ví dụ:
   ```php
