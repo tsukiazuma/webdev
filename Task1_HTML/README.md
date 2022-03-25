@@ -65,7 +65,7 @@ Vai trò: HTML giúp chia khung sườn, tạo nên bố cục của trang web, 
     - description: Khai báo mô tả của tài liệu.
     - keyword: Khai báo từ khóa của tài liệu, các từ khóa này sẽ giúp tìm kiếm văn bản hoặc máy tìm kiếm website dò tìm (Hiện tại rất ít dùng thuộc tính này).
 
-## Các thẻ định dạng chữ viết và văn bản<a name="3"></a>
+## Các thẻ định dạng chữ viết và văn bản<a name="4"></a>
 ### Tiêu đề và đoạn văn bản:
 - Thẻ p dùng để khai báo các đoạn văn bản và mỗi đoạn sẽ cách nhau một khoảng nhất định.
 - Ví dụ:
