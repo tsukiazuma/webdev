@@ -1,14 +1,14 @@
 Người thực hiện: Trần Ngọc Nam
 
 # Mục lục:
-- [HTML và vai trò của HTML](#1)
-- [Cấu trúc HTML](#2)
-- [Các thẻ khai báo thông tin web cơ bản](#3)
-- [Các thẻ định dạng chữ viết và văn bản](#4)
-- [Thẻ tạo liên kết và liên kết neo](#5)
-- [Chèn tập tin kỹ thuật số vào web](#6)
-- [Tạo danh sách (List)](#7)
-- [Tạo form nhập liệu](#8)
+1. [HTML và vai trò của HTML](#1)
+2. [Cấu trúc HTML](#2)
+3. [Các thẻ khai báo thông tin web cơ bản](#3)
+4. [Các thẻ định dạng chữ viết và văn bản](#4)
+5. [Thẻ tạo liên kết và liên kết neo](#5)
+6. [Chèn tập tin kỹ thuật số vào web](#6)
+7. [Tạo danh sách (List)](#7)
+8. [Tạo form nhập liệu](#8)
 
 ## HTML và vai trò của HTML<a name="1"></a>
 HTML:
