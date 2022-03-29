@@ -1,4 +1,6 @@
-Người thực hiện: Trần Ngọc Nam
+### Người thực hiện: Trần Ngọc Nam
+### Ngày thực hiện: 18-25/3/2022
+
 # Mục lục
 1. [HTML5 là gì?](#1)
 2. [HTML5 có gì mới?](#2)
